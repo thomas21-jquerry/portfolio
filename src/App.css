@@ -10,6 +10,7 @@
   --primary-black: #000000;
   --primary-transparent-black: rgba(0,0,0,0.7);
   --primary-green: #1FFF00;
+  --greenish-white: #9DFF8F;
 }
 
 body {
@@ -69,4 +70,34 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-green);
+}
+
+
+/************************ Header *********************************/
+.header-wrapper {
+  position: relative;
+  height: 90vh;
+  background: url(matrix.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1{
+  color: var(--primary-green);
+  text-transform: uppercase;
+}
+
+/************************ typed-text *********************************/
+
+.typed-text {
+  font-size: 3rem;
+  color: var(--greenish-white);
 }
