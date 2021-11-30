@@ -39,8 +39,6 @@ nav a.nav-link {
 
 nav ul li {
   text-transform: uppercase;
-   
-  
 }
 
 .navbar-nav > li > a {
@@ -81,11 +79,10 @@ nav ul li {
   background-position: center;
   background-size: cover;
 }
-
+/********************** matrix ***************************************/
 canvas {
   height: 90vh;
-  width: 100%;
-  
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,17 +91,12 @@ canvas {
 }
 
 
-
-
-
-
-
 /************************ typed-text *********************************/
 
 .typed-text {
   margin: auto;
   position: absolute;
-  top: 40%; left: 0; bottom: 0; right: 0;
+  top: 35%; left: 0; bottom: 0; right: 0;
   font-size: 3rem;
   text-align: center;
   color: var(--greenish-white);
