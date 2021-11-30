@@ -78,6 +78,7 @@ nav ul li {
   background-color: var(--primary-black);
   background-position: center;
   background-size: cover;
+  width: 100vw;
 }
 /********************** matrix ***************************************/
 canvas {
