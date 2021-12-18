@@ -15,6 +15,8 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
+  background: var(--primary-black);
+  cursor: url('./Images/cursor.png'), auto;
 }
 
 /************************ NAVBAR *********************************/
@@ -101,4 +103,25 @@ canvas {
   font-size: 3rem;
   text-align: center;
   color: var(--greenish-white);
+}
+
+/**************************************CURSOR************************************/
+.cursor {
+  width: 25px;
+  height: 25px;
+  border: 1.5px solid var(--greenish-white);
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnim .5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1);
+  }
 }
