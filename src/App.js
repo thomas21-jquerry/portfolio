@@ -2,7 +2,8 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import React,{useState} from 'react';
 import Navbar from './Component/navbar';
-import Header from "./Component/header"
+import Header from "./Component/header";
+import Contact from "./Component/Contact"
 
 
 
@@ -26,6 +27,9 @@ function App() {
           <Navbar />
         </div>
         <Header />
+        <Contact />
+
+
         <div className='cursor' style={{
         left: cursorX +"px",
         top: cursorY+"px"

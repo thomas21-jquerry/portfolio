@@ -29,7 +29,7 @@ export const Navbar = () => {
                         </li>
 
                         <li className="nav-item">
-                        <Link smooth={true} to="contacts" offset={-110} className="nav-link" >contacts</Link>
+                        <Link smooth={true} to="#contacts" offset={-110} a href='#contacts' className="nav-link" >contacts</Link>
                         </li>
                     </ul>
                     </div>

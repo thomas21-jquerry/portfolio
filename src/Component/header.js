@@ -48,7 +48,6 @@ export default class Header extends Component{
                 //adding a randomness to the reset to make the drops scattered on the Y axis
                 if(drops[i]*font_size > c.height && Math.random() > 0.975)
                     drops[i] = 0;
-
                 //incrementing Y coordinate
                 drops[i]++;   
         }
@@ -60,7 +59,7 @@ export default class Header extends Component{
 
     render(){
         return (
-            <div className="header-wrapper">
+            <div className="header-wrapper" id='contacts'>
                 <div className="main-info">
                 </div>
                 <canvas id="c"></canvas>

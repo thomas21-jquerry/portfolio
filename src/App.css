@@ -18,6 +18,10 @@ body {
   background: var(--primary-black);
   cursor: url('./Images/cursor.png'), auto;
 }
+.outerBody {
+  background: var(--primary-black);
+  color: var(--greenish-white);
+}
 
 /************************ NAVBAR *********************************/
 nav {
@@ -103,6 +107,33 @@ canvas {
   font-size: 3rem;
   text-align: center;
   color: var(--greenish-white);
+}
+
+/*************************************Contact************************************/
+.Contact {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.contactForm {
+  width: 70vh;
+  background: var(--primary-green);
+  padding: 5rem;
+
+}
+.contactForm input {
+  margin-top: 1rem;
+  
+  
+}
+
+.contactForm textarea {
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 3%;
 }
 
 /**************************************CURSOR************************************/
