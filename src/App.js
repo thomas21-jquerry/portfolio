@@ -3,7 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React,{useState} from 'react';
 import Navbar from './Component/navbar';
 import Header from "./Component/header";
-import Contact from "./Component/Contact"
+import Contact from "./Component/Contact";
+import AboutMe from './Component/aboutMe';
 
 
 
@@ -27,10 +28,15 @@ function App() {
           <Navbar />
         </div>
         <Header />
+        <AboutMe />
         <Contact />
 
 
         <div className='cursor' style={{
+        left: cursorX+2 +"px",
+        top: cursorY+2+"px"
+      }}> </div>
+      <div className='cursor' style={{
         left: cursorX +"px",
         top: cursorY+"px"
       }}> </div>

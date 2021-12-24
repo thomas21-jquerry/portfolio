@@ -12,9 +12,11 @@
   --primary-green: #1FFF00;
   --greenish-white: #9DFF8F;
 }
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  
+  font-family: 'Pacifico', cursive;
   background: var(--primary-black);
   cursor: url('./Images/cursor.png'), auto;
 }
@@ -135,6 +137,21 @@ canvas {
   width: 100%;
   border-radius: 3%;
 }
+
+/************************************About Me *************************************/
+.AboutMe {
+  height: 100vh;
+  background-color: #023020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.AboutMeContainer {
+  width: 50%;
+}
+
 
 /**************************************CURSOR************************************/
 .cursor {
