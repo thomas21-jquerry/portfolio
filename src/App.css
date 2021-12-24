@@ -152,6 +152,29 @@ canvas {
   width: 50%;
 }
 
+/************************************Experience *********************************/
+.Experience {
+  height: 100vh;
+  background-color: #004225;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*********************************** Portfolio *************************************/
+.Portfolio {
+  height: 100vh;
+  background-color: #355e3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolioContainer {
+  
+}
 
 /**************************************CURSOR************************************/
 .cursor {

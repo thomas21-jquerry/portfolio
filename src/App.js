@@ -5,6 +5,8 @@ import Navbar from './Component/navbar';
 import Header from "./Component/header";
 import Contact from "./Component/Contact";
 import AboutMe from './Component/aboutMe';
+import Experience from './Component/experience';
+import Portfolion from './Component/portfolio';
 
 
 
@@ -29,6 +31,8 @@ function App() {
         </div>
         <Header />
         <AboutMe />
+        <Experience/>
+        <Portfolion/>
         <Contact />
 
 
