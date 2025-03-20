@@ -3,11 +3,11 @@
 import React, { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
-// @ts-ignore
+// @ts-expect-error: maath/random types are not properly defined
 import * as random from "maath/random/dist/maath-random.esm";
 import * as THREE from "three";
 
-const StarBackground = (props: any) => {
+const StarBackground = (props: React.ComponentPropsWithoutRef<'group'>) => {
   const ref = useRef<THREE.Points>(null);
   const [sphere] = useState(() => {
     // Ensure the Float32Array is properly initialized and populated
