@@ -71,9 +71,9 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/discord.svg",
-      link: "https://discord.com/users/thomasjose"
+      name: "LinkedIn",
+      src: "/linkedIn.png",
+      link: "https://www.linkedin.com/in/thomas-jose-b20504176"
     },
     {
       name: "Github",
@@ -81,9 +81,9 @@ export const Skill_data = [
       link: "https://github.com/thomas21-jquerry"
     },
     {
-      name: "LinkedIn",
-      src: "/linkedIn.png",
-      link: "https://www.linkedin.com/in/thomas-jose-b20504176"
+      name: "Discord",
+      src: "/discord.svg",
+      link: "https://discord.com/users/thomasjose"
     },
   ];
   
