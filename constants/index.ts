@@ -72,15 +72,18 @@ export const Skill_data = [
   export const Socials = [
     {
       name: "Discord",
-      src: "/instagram.svg",
-    },
-    {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
-      name: "Instagram",
       src: "/discord.svg",
+      link: "https://discord.com/users/thomasjose"
+    },
+    {
+      name: "Github",
+      src: "/github2.png",
+      link: "https://github.com/thomas21-jquerry"
+    },
+    {
+      name: "LinkedIn",
+      src: "/linkedIn.png",
+      link: "https://www.linkedin.com/in/thomas-jose-b20504176"
     },
   ];
   
@@ -171,8 +174,8 @@ export const Skill_data = [
     {
       skill_name: "Fire base",
       Image: "/Firebase.png",
-      width: 55,
-      height: 55,
+      width: 70,
+      height: 70,
     },
     {
       skill_name: "Postger SQL",
@@ -254,6 +257,18 @@ export const Skill_data = [
       Image: "/docker.webp",
       width: 70,
       height: 70,
+    },
+    {
+      skill_name: "Ethereum",
+      Image: "/ethereum.png",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Solana",
+      Image: "/solana.png",
+      width: 80,
+      height: 80,
     },
   
     {
